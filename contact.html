@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewpoint" content="width=device-width, initial-
+    scale= 1.0">
+    <title>BANGTAN SONYEONDAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+
+</head> 
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index1.html"><img src="websitepics/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index1.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="about.html">ARTISTS</a></li>
+                    <li><a href="songs and awards.html">SONGS & AWARDS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h2>CONTACT US</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <section>
+    <!----------------contact--------------->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d61349.8549600401!2d120.5731328!3d16.0464896!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca03571ec38b%3A0x69d1d5751069c11f!2sManila%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1647842438304!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </section>
+        
+        <section class="contact-us">
+            
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h4>MANILA, PHILIPPINES</h4>
+                            <p>MPKPKW ST. QUEZON CTY</p>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h4>+639020250504</h4>
+                        <p>MONDAY TO SUNDAY, 24/7</p>
+                    </span>
+                <div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h4>immaarmybtsfan@website.com</h4>
+                        <p>EMAIL US YOUR QUERY</p>
+                    </span>
+                </div>
+                <div class="contact-col">
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="ENTER YOUR NAME" required>
+                        <input type="email" name="email" placeholder="ENTER EMAIL ADDRESS" required>
+                        <input type="text" name="subject" placeholder="ENTER YOUR SUBJECT" required>
+                        <textarea rows="8" name="message" placeholder="MESSAGE" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            <div>
+        </section>
+   
+    <!-----------FOOTER------------>
+    
+    <section class="footer">
+        <h6>About Us</h6>
+        <p>Lo siento, no sé qué hacer, ¡así que sí!, este es mi sitio web simple... Soy un fan, así que este es un sitio web hecho por fans. Disfruten leyendo a todos!!!!
+           <br> <br> ~Avegail Inés</p>
+           <div class="icons">
+            <i class="fa fa-facebook"></i>
+           </div>
+           <p> Made Wth <i class="fa fa-heart-o"></i>by AINES</p>
+
+    </section>
+
+    <!------JavaScript for Toggle Menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+
+</body> 
+
+</html> 
